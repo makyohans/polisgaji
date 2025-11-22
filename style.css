@@ -11,9 +11,9 @@ body {
     background-attachment: fixed; /* Membuat gambar tetap saat konten di-scroll */
     
     /* Warna fallback jika gambar gagal dimuat */
-    background-color: #f4f7f6; 
+    background-color: #ffffffc6; 
     
-    color: #333; /* Warna teks utama */
+    color: #000000; /* Warna teks utama */
 }
 
 .container {
@@ -108,16 +108,16 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        margin: 20px;
-        padding: 15px;
+        margin: 10px;
+        padding: 5px;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     #salaryTable thead th, #salaryTable tbody td {
         padding: 10px 5px;
-        font-size: 14px;
+        font-size: 15px;
     }
 }
